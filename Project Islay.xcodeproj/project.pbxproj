@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D01DBE51946771E00E0FCFE /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D01DBE41946771E00E0FCFE /* Storyboard.storyboard */; };
+		1D01DBE71946780500E0FCFE /* vcMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D01DBE61946780500E0FCFE /* vcMainViewController.swift */; };
+		1DA3CF711A10494100333CB9 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA3CF701A10494100333CB9 /* libc++.dylib */; };
+		1DA3E1B11944E79E006782CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3E1B01944E79E006782CB /* AppDelegate.swift */; };
+		1DA3E1B61944E79E006782CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DA3E1B51944E79E006782CB /* Images.xcassets */; };
+		1DA3E1C21944E79E006782CB /* Project_IslayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA3E1C11944E79E006782CB /* Project_IslayTests.swift */; };
+		1DED481A1A48820200BB33F4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DED48181A48820200BB33F4 /* Bolts.framework */; };
+		1DED481B1A48820200BB33F4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DED48191A48820200BB33F4 /* Parse.framework */; };
+		1DED481D1A48825700BB33F4 /* Distillery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DED481C1A48825700BB33F4 /* Distillery.swift */; };
+		1DED481F1A4882AA00BB33F4 /* Bottle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DED481E1A4882AA00BB33F4 /* Bottle.swift */; };
+		1DFA34AB1A118B6B00E36DCD /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34AA1A118B6B00E36DCD /* StoreKit.framework */; };
+		1DFA34AD1A118B7000E36DCD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34AC1A118B7000E36DCD /* AudioToolbox.framework */; };
+		1DFA34AF1A118B7600E36DCD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34AE1A118B7600E36DCD /* CFNetwork.framework */; };
+		1DFA34B11A118B7D00E36DCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34B01A118B7D00E36DCD /* CoreGraphics.framework */; };
+		1DFA34B31A118B8300E36DCD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34B21A118B8300E36DCD /* CoreLocation.framework */; };
+		1DFA34B51A118B8E00E36DCD /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34B41A118B8E00E36DCD /* libz.dylib */; };
+		1DFA34B71A118B9400E36DCD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34B61A118B9400E36DCD /* MobileCoreServices.framework */; };
+		1DFA34B91A118B9900E36DCD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34B81A118B9900E36DCD /* QuartzCore.framework */; };
+		1DFA34BB1A118BA600E36DCD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34BA1A118BA600E36DCD /* Security.framework */; };
+		1DFA34BD1A118BAB00E36DCD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFA34BC1A118BAB00E36DCD /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DA3E1BC1944E79E006782CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DA3E1A31944E79E006782CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DA3E1AA1944E79E006782CB;
+			remoteInfo = "Project Islay";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D01DBE41946771E00E0FCFE /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1D01DBE61946780500E0FCFE /* vcMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = vcMainViewController.swift; path = ../vcMainViewController.swift; sourceTree = "<group>"; };
+		1DA3CF701A10494100333CB9 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		1DA3E1AB1944E79E006782CB /* Project Islay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project Islay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA3E1AF1944E79E006782CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA3E1B01944E79E006782CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DA3E1B51944E79E006782CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DA3E1BB1944E79E006782CB /* Project IslayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project IslayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA3E1C01944E79E006782CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DA3E1C11944E79E006782CB /* Project_IslayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_IslayTests.swift; sourceTree = "<group>"; };
+		1DED48181A48820200BB33F4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		1DED48191A48820200BB33F4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		1DED481C1A48825700BB33F4 /* Distillery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Distillery.swift; sourceTree = "<group>"; };
+		1DED481E1A4882AA00BB33F4 /* Bottle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bottle.swift; sourceTree = "<group>"; };
+		1DFA34AA1A118B6B00E36DCD /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1DFA34AC1A118B7000E36DCD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		1DFA34AE1A118B7600E36DCD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		1DFA34B01A118B7D00E36DCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1DFA34B21A118B8300E36DCD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1DFA34B41A118B8E00E36DCD /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		1DFA34B61A118B9400E36DCD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1DFA34B81A118B9900E36DCD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1DFA34BA1A118BA600E36DCD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		1DFA34BC1A118BAB00E36DCD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1DFA34BE1A118C0300E36DCD /* Project Islay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Project Islay-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DA3E1A81944E79E006782CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DFA34BD1A118BAB00E36DCD /* SystemConfiguration.framework in Frameworks */,
+				1DFA34BB1A118BA600E36DCD /* Security.framework in Frameworks */,
+				1DFA34B91A118B9900E36DCD /* QuartzCore.framework in Frameworks */,
+				1DED481A1A48820200BB33F4 /* Bolts.framework in Frameworks */,
+				1DFA34B71A118B9400E36DCD /* MobileCoreServices.framework in Frameworks */,
+				1DFA34B51A118B8E00E36DCD /* libz.dylib in Frameworks */,
+				1DED481B1A48820200BB33F4 /* Parse.framework in Frameworks */,
+				1DFA34B31A118B8300E36DCD /* CoreLocation.framework in Frameworks */,
+				1DFA34B11A118B7D00E36DCD /* CoreGraphics.framework in Frameworks */,
+				1DFA34AF1A118B7600E36DCD /* CFNetwork.framework in Frameworks */,
+				1DFA34AD1A118B7000E36DCD /* AudioToolbox.framework in Frameworks */,
+				1DFA34AB1A118B6B00E36DCD /* StoreKit.framework in Frameworks */,
+				1DA3CF711A10494100333CB9 /* libc++.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA3E1B81944E79E006782CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA3CF721A104D4100333CB9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1DED481C1A48825700BB33F4 /* Distillery.swift */,
+				1DED481E1A4882AA00BB33F4 /* Bottle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1DA3E1A21944E79E006782CB = {
+			isa = PBXGroup;
+			children = (
+				1DFA34A51A118B2200E36DCD /* Frameworks */,
+				1DA3CF721A104D4100333CB9 /* Model */,
+				1DA3E1AD1944E79E006782CB /* Project Islay */,
+				1DA3E1BE1944E79E006782CB /* Project IslayTests */,
+				1DA3E1AC1944E79E006782CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1DA3E1AC1944E79E006782CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DA3E1AB1944E79E006782CB /* Project Islay.app */,
+				1DA3E1BB1944E79E006782CB /* Project IslayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DA3E1AD1944E79E006782CB /* Project Islay */ = {
+			isa = PBXGroup;
+			children = (
+				1D01DBE61946780500E0FCFE /* vcMainViewController.swift */,
+				1DA3E1B01944E79E006782CB /* AppDelegate.swift */,
+				1D01DBE41946771E00E0FCFE /* Storyboard.storyboard */,
+				1DA3E1B51944E79E006782CB /* Images.xcassets */,
+				1DA3E1AE1944E79E006782CB /* Supporting Files */,
+				1DFA34BE1A118C0300E36DCD /* Project Islay-Bridging-Header.h */,
+			);
+			path = "Project Islay";
+			sourceTree = "<group>";
+		};
+		1DA3E1AE1944E79E006782CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DA3E1AF1944E79E006782CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DA3E1BE1944E79E006782CB /* Project IslayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA3E1C11944E79E006782CB /* Project_IslayTests.swift */,
+				1DA3E1BF1944E79E006782CB /* Supporting Files */,
+			);
+			path = "Project IslayTests";
+			sourceTree = "<group>";
+		};
+		1DA3E1BF1944E79E006782CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DA3E1C01944E79E006782CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DFA34A51A118B2200E36DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DA3CF701A10494100333CB9 /* libc++.dylib */,
+				1DED48181A48820200BB33F4 /* Bolts.framework */,
+				1DED48191A48820200BB33F4 /* Parse.framework */,
+				1DFA34BC1A118BAB00E36DCD /* SystemConfiguration.framework */,
+				1DFA34BA1A118BA600E36DCD /* Security.framework */,
+				1DFA34B81A118B9900E36DCD /* QuartzCore.framework */,
+				1DFA34B61A118B9400E36DCD /* MobileCoreServices.framework */,
+				1DFA34B41A118B8E00E36DCD /* libz.dylib */,
+				1DFA34B21A118B8300E36DCD /* CoreLocation.framework */,
+				1DFA34B01A118B7D00E36DCD /* CoreGraphics.framework */,
+				1DFA34AE1A118B7600E36DCD /* CFNetwork.framework */,
+				1DFA34AC1A118B7000E36DCD /* AudioToolbox.framework */,
+				1DFA34AA1A118B6B00E36DCD /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DA3E1AA1944E79E006782CB /* Project Islay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA3E1C51944E79E006782CB /* Build configuration list for PBXNativeTarget "Project Islay" */;
+			buildPhases = (
+				1DA3E1A71944E79E006782CB /* Sources */,
+				1DA3E1A81944E79E006782CB /* Frameworks */,
+				1DA3E1A91944E79E006782CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project Islay";
+			productName = "Project Islay";
+			productReference = 1DA3E1AB1944E79E006782CB /* Project Islay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DA3E1BA1944E79E006782CB /* Project IslayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA3E1C81944E79E006782CB /* Build configuration list for PBXNativeTarget "Project IslayTests" */;
+			buildPhases = (
+				1DA3E1B71944E79E006782CB /* Sources */,
+				1DA3E1B81944E79E006782CB /* Frameworks */,
+				1DA3E1B91944E79E006782CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DA3E1BD1944E79E006782CB /* PBXTargetDependency */,
+			);
+			name = "Project IslayTests";
+			productName = "Project IslayTests";
+			productReference = 1DA3E1BB1944E79E006782CB /* Project IslayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DA3E1A31944E79E006782CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = jp;
+				TargetAttributes = {
+					1DA3E1AA1944E79E006782CB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					1DA3E1BA1944E79E006782CB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 1DA3E1AA1944E79E006782CB;
+					};
+				};
+			};
+			buildConfigurationList = 1DA3E1A61944E79E006782CB /* Build configuration list for PBXProject "Project Islay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1DA3E1A21944E79E006782CB;
+			productRefGroup = 1DA3E1AC1944E79E006782CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DA3E1AA1944E79E006782CB /* Project Islay */,
+				1DA3E1BA1944E79E006782CB /* Project IslayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DA3E1A91944E79E006782CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA3E1B61944E79E006782CB /* Images.xcassets in Resources */,
+				1D01DBE51946771E00E0FCFE /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA3E1B91944E79E006782CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA3E1A71944E79E006782CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D01DBE71946780500E0FCFE /* vcMainViewController.swift in Sources */,
+				1DED481F1A4882AA00BB33F4 /* Bottle.swift in Sources */,
+				1DA3E1B11944E79E006782CB /* AppDelegate.swift in Sources */,
+				1DED481D1A48825700BB33F4 /* Distillery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DA3E1B71944E79E006782CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA3E1C21944E79E006782CB /* Project_IslayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DA3E1BD1944E79E006782CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DA3E1AA1944E79E006782CB /* Project Islay */;
+			targetProxy = 1DA3E1BC1944E79E006782CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DA3E1C31944E79E006782CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1DA3E1C41944E79E006782CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DA3E1C61944E79E006782CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Project Islay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project Islay/Project Islay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DA3E1C71944E79E006782CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Project Islay/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Project Islay/Project Islay-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		1DA3E1C91944E79E006782CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Project Islay.app/Project Islay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project IslayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		1DA3E1CA1944E79E006782CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Project Islay.app/Project Islay";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Project IslayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA3E1A61944E79E006782CB /* Build configuration list for PBXProject "Project Islay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA3E1C31944E79E006782CB /* Debug */,
+				1DA3E1C41944E79E006782CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA3E1C51944E79E006782CB /* Build configuration list for PBXNativeTarget "Project Islay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA3E1C61944E79E006782CB /* Debug */,
+				1DA3E1C71944E79E006782CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DA3E1C81944E79E006782CB /* Build configuration list for PBXNativeTarget "Project IslayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DA3E1C91944E79E006782CB /* Debug */,
+				1DA3E1CA1944E79E006782CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DA3E1A31944E79E006782CB /* Project object */;
+}
